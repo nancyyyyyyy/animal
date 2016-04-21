@@ -1,0 +1,71 @@
+body{
+	color: white;
+	font-font-family: arial;
+	width: 850px;
+	margin: auto; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+nav{
+	padding:16px;
+	text-align: center;
+	color: white;
+}
+nav a{
+	text-indent: -9999px;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin: 0 8px;
+	}
+
+#home{
+	background-image: url("images/home.png")
+}
+#info{
+	background-image: url("images/info.png")
+}
+#links{
+	background-image: url("images/links.png")
+}
+#photo{
+	background-image: url("images/photo.png")
+}
+h1{
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #000066;
+	font-size: 50px;
+	font-font-family: arial;
+	padding: 50px;
+	text-shadow: 2px 2px  #4d4dff;
+}
+h2{
+	color: #000066;
+}
+p{
+	line-height: 25px;
+	font-size: 18px;
+}
+/*links page*/
+.list{
+	font-size: 24px;
+	list-style: 16x16px;
+}
+a:hover{
+	color:  #634236;
+}
+a{
+	 text-decoration: none;
+	 color: #000066;
+}
+
+.photos{ 
+margin-bottom: 50px;
+position: relative;
+float: left;
+width: 100%;
+min-height: 700px;
+}
